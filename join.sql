@@ -1,0 +1,1 @@
+SELECT first_name,role_id,title,salary,department_id FROM employee left join role on role.id = employee.role_id
